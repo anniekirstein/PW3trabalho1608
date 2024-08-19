@@ -2,7 +2,7 @@ public class Conta {
     private String descricao;
     private double valor;
     private boolean paga;
-    private boolean ehReceber; // true se é uma conta a receber, false se é uma conta a pagar
+    private boolean ehReceber;
 
     public Conta(String descricao, double valor, boolean ehReceber) {
         this.descricao = descricao;
